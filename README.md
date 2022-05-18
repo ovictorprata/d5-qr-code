@@ -1,4 +1,4 @@
-#ACESS LINK: https://ovictorprata.github.io/d5-qr-code/
+# ACESS LINK: https://ovictorprata.github.io/d5-qr-code/
 
 ## Frontend Mentor - QR code component
 

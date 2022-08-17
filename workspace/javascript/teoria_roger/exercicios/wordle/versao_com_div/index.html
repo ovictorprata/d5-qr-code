@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://css.gg/backspace.css' rel='stylesheet'>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>D4</title>
+</head>
+<body onkeydown="PegarTecla(event)">
+   <header>
+       <h1>Wordle</h1>
+       <hr>
+    </header>
+    <div class="jogo">
+        <div class="caixa-jogo vazio" id="div1" maxlenght="1" ></div>
+        <div class="caixa-jogo vazio" id="div2"></div>
+        <div class="caixa-jogo vazio" id="div3"></div>
+        <div class="caixa-jogo vazio" id="div4"></div>
+        <div class="caixa-jogo vazio" id="div5"></div>
+        <div class="caixa-jogo meio-certo" id="l2c1">A</div>
+        <div class="caixa-jogo errado">P</div>
+        <div class="caixa-jogo errado">P</div>
+        <div class="caixa-jogo certo">L</div>
+        <div class="caixa-jogo errado">E</div>
+        <div class="caixa-jogo vazio">F</div>
+        <div class="caixa-jogo vazio">A</div>
+        <div class="caixa-jogo vazio">U</div>
+        <div class="caixa-jogo vazio">L</div>
+        <div class="caixa-jogo vazio">T</div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+        <div class="caixa-jogo"></div>
+    </div>
+
+    <div class="teclado">
+        <div class="linha-teclado">
+            <button class="caixa-teclado outros">Q</button>
+            <button class="caixa-teclado errado">W</button>
+            <button class="caixa-teclado errado">E</button>
+            <button class="caixa-teclado errado">R</button>
+            <button class="caixa-teclado outros">T</button>
+            <button class="caixa-teclado outros">Y</button>
+            <button class="caixa-teclado outros">U</button>
+            <button class="caixa-teclado outros">I</button>
+            <button class="caixa-teclado errado">O</button>
+            <button class="caixa-teclado errado">P</button>
+        </div>
+        <div class="linha-teclado">
+            <button class="caixa-teclado meio-certo">A</button>
+            <button class="caixa-teclado outros">S</button>
+            <button class="caixa-teclado errado">D</button>
+            <button class="caixa-teclado outros">F</button>
+            <button class="caixa-teclado outros">G</button>
+            <button class="caixa-teclado outros">H</button>
+            <button class="caixa-teclado outros">J</button>
+            <button class="caixa-teclado outros">K</button>
+            <button class="caixa-teclado certo">L</button>
+        </div>
+        <div class="linha-teclado">
+            <button class="caixa-teclado outros btn-especial">ENTER</button>
+            <button class="caixa-teclado outros">Z</button>
+            <button class="caixa-teclado outros">X</button>
+            <button class="caixa-teclado outros">C</button>
+            <button class="caixa-teclado outros">V</button>
+            <button class="caixa-teclado outros">B</button>
+            <button class="caixa-teclado outros">N</button>
+            <button class="caixa-teclado outros">M</button>
+            <button class="caixa-teclado outros btn-especial"><i class="gg-backspace"></i></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

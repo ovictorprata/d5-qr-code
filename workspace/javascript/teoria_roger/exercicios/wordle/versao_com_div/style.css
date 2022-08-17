@@ -36,6 +36,10 @@ header > h1 {
   margin: 160px auto;
 }
 
+.jogo > div {
+  font-variant-numeric: tabular-nums;
+}
+
 .errado {
   background: #787c73;
   color: white;
